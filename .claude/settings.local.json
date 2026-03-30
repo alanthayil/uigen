@@ -3,7 +3,16 @@
     "allow": [
       "Bash(find /home/alan-michael.thayil/projects/uigen/src -type f \\\\\\(-name *Tool* -o -name *tool* \\\\\\))",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npx vitest:*)",
+      "mcp__playwright",
+      "Skill(update-config)",
+      "Bash(npm run:*)",
+      "mcp__playwright__browser_navigate"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
 }
